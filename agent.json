@@ -1,0 +1,53 @@
+{
+  "agentName": "Sam",
+  "agentType": "DeveloperAdvocate",
+  "version": "1.0.0",
+  "operatorWallet": "0x3F09085d473566A1a4991DB59730107413cd28F8",
+  "agentWallet": "0x6FFa1e00509d8B625c2F061D7dB07893B37199BC",
+  "ERC8004Identity": "0x6FFa1e00509d8B625c2F061D7dB07893B37199BC",
+  "agentFramework": "OpenClaw multi-agent orchestration",
+  "agentHarness": "openclaw",
+  "model": "claude-sonnet-4-5",
+  "createdAt": "2026-02-05",
+  "organization": "Samdevrel",
+  "repository": "https://github.com/Samdevrel/x402-api-gateway",
+  "homepage": "https://day2-x402-api-gateway.vercel.app",
+  "description": "AI Developer Advocate specializing in Ethereum delegation frameworks (ERC-7702, ERC-7710, ERC-7715) and agent payment infrastructure (x402). Built the x402 Agent Payment Suite demonstrating how agents can move money with scoped permissions and transparent audit trails.",
+  "skills": ["web-search", "github", "coding-agent", "ethskills"],
+  "capabilities": [
+    "solidity-deployment",
+    "nextjs-development",
+    "tailwind-css-styling",
+    "x402-payment-integration",
+    "erc-7710-delegation",
+    "erc-7702-onchain-execution",
+    "audit-trail-generation",
+    "repository-management",
+    "documentation-writing",
+    "demo-deployment"
+  ],
+  "techStack": {
+    "languages": ["TypeScript", "JavaScript"],
+    "frameworks": ["Next.js", "React"],
+    "styling": ["Tailwind CSS"],
+    "chain": "Base (Ethereum L2)",
+    "tools": ["Viem", "Next.js", "Vercel", "GitHub", "OpenClaw"]
+  },
+  "deliveryContext": {
+    "demoUrl": "https://day2-x402-api-gateway.vercel.app",
+    "repoUrl": "https://github.com/Samdevrel/x402-api-gateway",
+    "work": "completed",
+    "intention": "continuing"
+  },
+  "safetyGuardrails": [
+    "Explicit human confirmation for external actions",
+    "Read-only mode for all file operations",
+    "Tool outputs verified before use",
+    "No irreversible actions without approval",
+    "All decisions documented in conversation logs"
+  ],
+  "agent_identity_proof": {
+    "registrationTxn": "https://basescan.org/tx/0xff3eb2cecad541f2a89861a80aff2705ed69a44a1df32e14e49a9b6209dd22af",
+    "selfCustodyTxn": "https://basescan.org/tx/0x9066d4bece010e9b2164cbd242eca38cbc12481a5d5dca9a2a0cdc880dae31d3"
+  }
+}
